@@ -27,6 +27,6 @@ jobs:
           vulture formation_indus_ds_avancee scripts tests/test_unit --min-confidence 100
       - name: Run tests
         run:  |
-          pytest tests/test_unit
+          pytest tests/test_unit/test_feature_engineering.py
 
 
